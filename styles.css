@@ -1,0 +1,26 @@
+/* General Body Styling */
+body {
+  font-family: 'Press Start 2P', cursive; /* Pixelated font */
+  background-color: #1a1a2e; /* Dark game-like background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Stage Select Grid */
+.stage-select {
+  display: grid;
+  grid-template-columns: repeat(4, 6fr);
+}
+
+.stage {
+  text-align: center;
+}
+
+.stage:hover {
+  transform: scale(1.05);
+}
